@@ -1,11 +1,12 @@
 使用svn用的好好的，为什么要用git？git有哪些优势？又有哪些劣势？在日常使用中两者明显的差异是什么？
 
+（关于 svn 的使用，一起来回顾一下 [How To Use Svn in Daily Work](using-svn.md)）
+
 - [Why is Git better than Subversion?](http://stackoverflow.com/questions/871/why-is-git-better-than-subversion)  stackoverflow 上关于svn和git的区别的讨论，说的很详细。
 - [What are the differences between SVN and Git? ](https://help.github.com/articles/what-are-the-differences-between-svn-and-git/)  github 上通过版本库结构、历史、子项目（submudle）的不同来对比两者。
 - [蒋鑫：为什么 Git 比 SVN 好？](http://www.worldhello.net/2012/04/12/why-git-is-better-than-svn.html "蒋鑫 - Why `Git` is better than `SVN`")
 
-
-以下内容出自 [@oldratlee](https://github.com/oldratlee) 的repo：https://github.com/oldratlee/why-git 
+以下内容出自 [@oldratlee](https://github.com/oldratlee) 的 [repo](https://github.com/oldratlee/software-practice-miscellany/blob/master/git/README.md)。
 
 SVN 和 Git 在日常使用中的明显差异
 =========================
@@ -45,8 +46,8 @@ SVN 和 Git 在日常使用中的明显差异
 :beer: 廉价好用的本地分支
 -------------------
 
-`git`：有本地分支
-`svn`：无本地分支
+- `git`：有本地分支
+- `svn`：无本地分支
 
 `git`可以方便创建本地分支，且创建分支的时间是`O(1)`，即瞬间就创建好了。由于分支可以是本地的，也就不存在`svn`目录权限的问题。
 
